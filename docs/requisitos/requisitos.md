@@ -52,11 +52,39 @@ A observação direta dos processos e ambientes de trabalho dos stakeholders ser
 
 ## Requisitos Funcionais
 
-Os requisitos funcionais descrevem as funções específicas que o sistema deve executar. Eles serão documentados em formato de histórias de usuário ou casos de uso.
+1. **Objetivo do Software:**
+   - Fazer a comunicação entre o PC e a placa Arduino.
+
+2. **Interface do Usuário:**
+   - Utilizar um framework que permita uma interface didática, com boa aparência e vários layouts de tela.
+   - Incluir campo de conversa com o Arduino, campo para receber informações, listar portas de comunicação (como USB), mostrar a porta em que o Arduino está conectado e permitir conexão e desconexão.
+
+3. **Comunicação Serial:**
+   - Implementar comunicação serial entre o PC e o Arduino.
 
 ## Requisitos Não Funcionais
 
-Os requisitos não funcionais descrevem os atributos de qualidade do sistema, como desempenho, segurança e usabilidade. Esses requisitos serão detalhados e priorizados conforme a importância para o sucesso do projeto.
+1. **Compatibilidade:**
+   - O software Java precisa ser compatível com Windows.
+   - Não há versão mínima de Java especificada.
+
+2. **Segurança:**
+   - Inicialmente, não há requisitos específicos de segurança (como criptografia de dados ou autenticação).
+
+3. **Monitoramento e Logging:**
+   - Não é necessário registrar ou monitorar informações durante a execução do sistema.
+
+4. **Backup e Recuperação:**
+   - Não há requisitos de backup e recuperação de dados.
+
+5. **Escalabilidade:**
+   - Possibilidade de crescimento ou expansão do sistema no futuro.
+
+6. **Comunicação com Stakeholders:**
+   - Haverá reuniões regulares e relatórios de progresso.
+
+7. **Design da Interface:**
+   - Não há diretrizes específicas ou padrões de design a serem seguidos.
 
 ## Ferramentas Utilizadas
 
